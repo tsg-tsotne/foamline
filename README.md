@@ -1,7 +1,5 @@
 # FoamlineGeorgia
 
-Static multilingual website: Georgian, English, Russian and Turkish.
+Static website in Georgian, English, Russian and Turkish. Serve this folder with any static web server; no build required.
 
-Open index.html or serve this directory with any static web server. No build or dependencies are required.
-
-Quote requests open WhatsApp or an email app. Newsletter subscription requests open the visitor's email app; no automatic mailing service is connected. Social profile URLs still need to be supplied.
+Quote requests open WhatsApp or email. Newsletter subscription requests open the visitor's email app. An automated mailing service is not connected. Social profile links remain to be supplied.
