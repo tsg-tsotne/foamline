@@ -11,3 +11,6 @@
 
 .language-flags{display:flex;align-items:center;gap:5px;margin-left:8px}.language-flags button{padding:5px;border:1px solid transparent;border-radius:5px;line-height:0;transition:background .2s,transform .2s}.language-flags svg{width:25px;height:18px;stroke:none;display:block;border-radius:2px}.language-flags button:hover{background:#e2edc8;transform:translateY(-2px)}.language-flags button[aria-pressed="true"]{border-color:#86b321;background:#edf6d9}@media(max-width:720px){.language-flags{margin:8px 0 0;align-self:flex-start}.language-flags button{padding:10px}}
 
+
+/* Accessible flag language switcher: clear labels and responsive sizing */
+.language-flags{flex-shrink:0;gap:4px}.language-flags button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:36px;padding:6px;border-radius:7px}.language-flags .language-code{font-family:Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:.3px;line-height:1}.language-flags button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}@media(max-width:1150px) and (min-width:721px){.language-flags .language-code{display:none}.language-flags button{padding:5px}}@media(max-width:720px){.language-flags{flex-wrap:wrap;gap:7px}.language-flags button{min-height:44px;padding:8px 10px}.language-flags .language-code{display:inline}}
